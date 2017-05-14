@@ -1,9 +1,9 @@
-Welcome to documentation!
-=========================
+Welcome to the documentation!
+=============================
 
 .. Tip::
 
-    trail documentation
+    trial
 
 
 
