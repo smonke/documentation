@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # build the docs
-cd docs
 make clean
 make html
 # commit and push
@@ -21,4 +20,4 @@ git commit -m "publishing updated docs..."
 sleep 10
 git push origin gh-pages
 # switch back
-git checkout master
+git checkout master -f
