@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # build the docs
+cd docs
 make clean
 make html
 # commit and push
@@ -7,7 +8,9 @@ git add -A
 git commit -m "building and pushing docs"
 git push origin master
 # switch branches and pull the data we want
-git checkout gh-pages
+sleep 1
+git checkout gh-
+sleep 2
 rm -rf .
 touch .nojekyll
 git checkout master _build/html
